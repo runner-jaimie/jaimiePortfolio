@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jaimie's Portfolio</title>
+  <link rel="icon" href="images/favicon.png">
+  <script src="js/jquery-2.1.4.js"></script>
+  <!-- Page Scroll Effects JS & CSS -->
+  <script src="js/velocity/modernizr.js"></script>
+  <script src="js/velocity/velocity.min.js"></script>
+  <script src="js/velocity/velocity.ui.min.js"></script>
+  <script src="js/velocity/main.js"></script>
+  <link rel="stylesheet" href="js/velocity/velocity.css">
+  <!-- Smooth Scrolling -->
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <!-- Featherlight.js -->
+  <script src="js/featherlight/featherlight.js"></script>
+  <link rel="stylesheet" href="js/featherlight/featherlight.css">
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/72bb1141a0.js" crossorigin="anonymous"></script>
+  <!-- Custom JS & CSS -->
+  <script src="custom.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
+
+<body data-hijacking="on" data-animation="rotate">
+
+  <!-- Header -->
+  <header>
+      <div class="gnb-inner">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        </div>
+        <div class="gnb">
+          <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+          </div>
+            <div class="slogan">Welcome to my Portfolio.</div>
+        </div>
+        <div class="trigger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+  </header>
+
+  <div class="container">
+    <!-- Home Section -->
+    <section class="cd-section visible" id="home">
+      <div>
+        <div class="content">
+          <div class="home-inner">
+            <h3 class="welcome-text">Hi My name is Jaimie <span>Thank you for visiting my website.</span>
+            </h3>
+            <div class="opacity-image"></div>
+            <div class="home-heading">
+                <span>Creative</span>
+                <span>Enthusiastic</span>
+                <span>developer.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="cd-section" id="about">
+      <div>
+        <div class="content">
+          <div class="about-inner">
+            <div class="about-items">
+              <div class="about-text">
+                <span>
+                  <h3>About</h3>
+                  <hr class="bar">
+                  <p class="about-jaimie">
+                    Hi, I'm Jaimie.
+                    I am a front-end developer based in Toronto, Canada.
+                  </p>
+                  <p>
+                    The first time I stepped into web development was through a YouTube video. It was a very simple HTML video, but I started to get interested in coding.
+                    Since then, I decided to change my career to become a web developer and now I am studying technology web development program at BCIT.
+                  </p>
+                  <p>
+                    I love to create websites that are not only functionally efficient but also aesthetically pleasing in design. And I believe that these are the components of a good developer. 
+                  </p>
+                </span>
+                <div class="skills">
+                  <h3>Skills</h3>
+                  <hr class="bar">
+                  <p>
+                    Experience with all phases of the software life-cycle. Passion for
+                    learning new technologies. Capable of working within a team environment
+                    and independently. Ability to plan and time schedule, work under strict
+                    time pressure and adapt quickly when needed.
+                  </p>
+                </div>
+              </div>  
+              <div class="skillset">
+                <h3 class="skillset-title">Skill Sets</h3>
+                <div class="skill">
+                  <div class="skill-description">
+                    <span>HTML</span>
+                    <span>95%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-value" style="width: 95%;"></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <div class="skill-description">
+                    <span>CSS</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-value" style="width: 90%;"></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <div class="skill-description">
+                      <span>JAVASCRIPT</span>
+                      <span>70%</span>
+                  </div>
+                  <div class="skill-bar">
+                      <div class="skill-value" style="width: 70%;"></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <div class="skill-description">
+                    <span>REACT</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-value" style="width: 80%;"></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <div class="skill-description">
+                    <span>PHP</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-value" style="width: 80%;"></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <div class="skill-description">
+                    <span>WORDPRESS</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-value" style="width: 80%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section -->
+    <section class="cd-section" id="projects">
+      <div>
+        <div class="content">
+          <div class="project-inner">
+            <input type="radio" name="tabmenu" id="tab1" checked>
+            <input type="radio" name="tabmenu" id="tab2">
+            <input type="radio" name="tabmenu" id="tab3">
+            <div class="tabs">
+              <div class="tab">
+                <div class="project-info" data-text="01">
+                  <h3>Project: Landing Page</h3>
+                  <p>
+                    This portfolio is a website that shows web development and design projects deployed within the first few weeks of learning web development.
+                    It is a single page website showcasing current
+                    projects I was working on.
+                  </p>
+                  <h4>Useing Tools</h4>
+                  <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                  </ul>
+                  <h4>Useing Skills</h4>
+                  <div class="detail">
+                    <div class="detail-icon">
+                      <i class="fab fa-html5"></i>
+                      <span>HTML</span>
+                    </div>
+                    <div class="detail-icon">
+                      <i class="fab fa-css3-alt"></i>
+                      <span>CSS</span>
+                    </div>
+                    <div class="detail-icon">
+                      <i class="fab fa-js"></i>
+                      <span>JavaScript</span>
+                    </div>
+                  </div>
+                  <div class="view-container">
+                    <a class="view-project" href="project-detail-01.html"
+                      data-featherlight="iframe">View Project<i
+                      class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
+                </div>
+                <div class="project-photo">
+                  <img src="images/landings.jpg">
+                </div>
+              </div>
+              <div class="tab">
+                <div class="project-info" data-text="02">
+                  <h3>Project: Wine Brochure </h3>
+                  <p>
+                    Elizabeth is first group project and it makes with a 10 page website for a
+                    fictional winery. When users switch from laptop to mobile, the website automatically 
+                    switches to accommodate resolution, image size, and scripting capabilities.
+                  </p>
+                  <h4>Useing Tools</h4>
+                  <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                    <li>AdoBe XD</li>
+                  </ul>
+                  <h4>Useing Skills</h4>
+                  <div class="detail">
+                    <div class="detail-icon">
+                      <i class="fab fa-html5"></i>
+                      <span>HTML</span>
+                    </div>
+                    <div class="detail-icon">
+                      <i class="fab fa-css3-alt"></i>
+                      <span>CSS</span>
+                    </div>
+                    <div class="detail-icon">
+                      <i class="fab fa-sass"></i>
+                      <span>SCSS</span>
+                    </div>
+                    <div class="detail-icon">
+                      <i class="fab fa-js"></i>
+                      <span>JavaScript</span>
+                    </div>
+                  </div>
+                  <a class="view-project" href="project-detail-02.html"
+                    data-featherlight="iframe">View Project
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                  </a>
+                </div>
+                <div class="project-photo">
+                  <img src="images/wines.jpg">
+                </div>
+              </div>
+              <div class="tab">
+                <div class="project-info" data-text="03">
+                  <h3>Project: React</h3>
+                  <p>
+                    This website is built by the most popular JavaScript Framework, React. The web
+                    page acquired the API from MovieDB, fetched the database and used on my own
+                    website.
+                  </p>
+                  <h4>Useing Tools</h4>
+                  <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                  </ul>
+                  <h4>Useing Skills</h4>
+                  <div class="detail">
+                    <div class="detail-icon">
+                      <i class="fab fa-html5"></i>
+                      <span>HTML</span>
+                    </div>
+                    <div class="detail-icon">
+                      <i class="fab fa-sass"></i>
+                      <span>SCSS</span>
+                    </div>
+                    <div class="detail-icon">
+                      <i class="fab fa-react"></i>
+                      <span>REACT</span>
+                    </div>
+                  </div>
+                  <a class="view-project" data-featherlight="iframe" href="project-detail-03.html">View Project
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                  </a>
+                </div>
+                <div class="project-photo">
+                  <img src="images/movies.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="btn">
+              <label for="tab1"></label>
+              <label for="tab2"></label>
+              <label for="tab3"></label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+    <a href="#" class="gototop"><img src="images/gototop.png" alt="top"></a>
+    <a href="contact.html" class="btn-contact" data-featherlight="iframe">
+      <i class="fas fa-comment"></i>
+      Contact me
+    </a>
+    <nav>
+      <ul class="cd-vertical-nav">
+        <li><a href="#0" class="cd-prev inactive">Next</a></li>
+        <li><a href="#0" class="cd-next">Prev</a></li>
+      </ul>
+    </nav>
+</body>
+</html>
