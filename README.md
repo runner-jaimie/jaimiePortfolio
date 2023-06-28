@@ -14,4 +14,4 @@ It has been designed and developed using HTML, CSS, JavaScript, and jQuery to pr
 - Skills display: Discover the range of skills I possess and see how they align with your project requirements.
 
 ## Visit my portfolio web site :heart_eyes:
-### :rocket:[https://www.runner-jaimie.ca](https://www.runner-jaimie.ca)
+### :rocket: https://runner-jaimie.ca/
